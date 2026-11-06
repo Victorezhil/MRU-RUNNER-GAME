@@ -7,19 +7,25 @@
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
 
-# Memory Dumps
-*.pbd
-*.user
-*.userprefs
-*.pidb
-*.booproj
-*.svd
-*.pdb
-*.opendb
-*.VC.db
+# Key Stores & Passwords (NEVER PUSH PRIVATE KEYS)
+*.keystore
+*.jks
+*.pem
+*.p12
+*.key
+*.pfx
 
-# OS Generated
+# Large Binary Build Outputs (Keep Git repo light)
+*.apk
+*.aab
+*.exe
+*.zip
+*.dll
+
+# IDE & User Specific Files
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/caches/
+.idea/shelf/
 .DS_Store
-.DS_Store?
-ehthumbs.db
 Thumbs.db
